@@ -148,4 +148,5 @@ then
 fi
 
 # run the actual command as the omada user
+echo "INFO: Starting with command '${@}'"
 exec gosu omada "${@}"
